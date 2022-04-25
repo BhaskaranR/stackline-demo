@@ -1,8 +1,8 @@
 
-<h5 align='center'>
-<b>Lightweight version of Demo</b>
-</h5>
+<p align='center'>
+<a href="https://demo-pfc2c4lin-bhaskaranr.vercel.app">Live Demo</a>
 </p>
+
 
 ## Features
 
