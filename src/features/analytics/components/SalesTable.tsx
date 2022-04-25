@@ -7,7 +7,7 @@ import TableRow from '@mui/material/TableRow'
 import type { FC } from 'react'
 import { Box, Card, CardContent } from '@mui/material'
 import type { Sales } from '~/types'
-import { Scrollbar } from '~/components/ScrollBar'
+// import { Scrollbar } from '~/components/ScrollBar'
 
 interface IProps {
   sales?: Array<Sales>
@@ -30,7 +30,6 @@ export const SalesTable: FC<IProps> = ({ sales }) => {
     >
       <Card>
         <CardContent>
-          <Scrollbar>
             <TableContainer sx={{ maxHeight: 440 }}>
               <Table stickyHeader aria-label="analytics table">
                 <TableHead>
@@ -60,7 +59,6 @@ export const SalesTable: FC<IProps> = ({ sales }) => {
                 </TableBody>
               </Table>
             </TableContainer>
-          </Scrollbar>
         </CardContent>
       </Card>
     </Box>
